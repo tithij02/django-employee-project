@@ -74,11 +74,11 @@ WSGI_APPLICATION = 'employee_management.wsgi.application'
 DATABASES = {
         'default': {
         'ENGINE': 'django.db.backends.mysql',# MySQL backend
-        'NAME': 'employee',                  # Your database name
-        'USER': 'tithijangade',              # MySQL username
-        'PASSWORD': '123654',                # MySQL password
-        'HOST': 'localhost',                 # Or IP address of server
-        'PORT': '3306', 
+        'NAME': 'railway',                  # Your database name
+        'USER': 'root',              # MySQL username
+        'PASSWORD': 'VyadojygtnEhlwdhZwpuWxykGrkHKqVR',                # MySQL password
+        'HOST': 'turntable.proxy.rlwy.net',                 # Or IP address of server
+        'PORT': '12123', 
     }
         
     }
