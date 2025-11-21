@@ -1,0 +1,19 @@
+git clone https://github.com/the-kiran-academy/Employee_Django_API.git
+
+1. Prepare Your Environment > 
+		python -m venv venv  
+		venv\Scripts\activate
+		pip install --upgrade pip
+		pip install -r requirements.txt
+2. Install Core Dependencies > 
+		pip install django
+		pip install djangorestframework
+
+3. Run Database Migrations >  
+		python manage.py makemigrations
+
+4. Apply migrations : 
+		python manage.py migrate
+
+5. Run the Development Server > 
+		python manage.py runserver 8080
