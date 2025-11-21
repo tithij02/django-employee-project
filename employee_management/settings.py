@@ -76,7 +76,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',# MySQL backend
         'NAME': 'railway',                  # Your database name
         'USER': 'root',              # MySQL username
-        'PASSWORD': 'VyadojygtnEhlwdhZwpuWxykGrkHKqVR',                # MySQL password
+        'PASSWORD': 'VyadojygtnEhlwdhZwpuWxykGrkHKqVR',        # MySQL password
         'HOST': 'turntable.proxy.rlwy.net',                 # Or IP address of server
         'PORT': '12123', 
     }
@@ -113,7 +113,6 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
-
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
